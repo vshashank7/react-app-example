@@ -1,12 +1,12 @@
 import './App.css';
 import Header from './components/Header/Header';
-import CoreConcepts from './components/CoreConcepts/CoreConcepts';
+import AnimalDetails from './components/AnimalDetails/AnimalDetails';
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <CoreConcepts />
+      <AnimalDetails />
     </div>
   );
 }

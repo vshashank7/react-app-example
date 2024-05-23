@@ -1,6 +1,6 @@
-import './CoreConcept.css';
+import './AnimalDetail.css';
 
-function CoreConcept({title , description , imageUrl}){
+function AnimalDetail({title , description , imageUrl}){
     return (
         <li>
             <img src={imageUrl} alt={title} />
@@ -10,4 +10,4 @@ function CoreConcept({title , description , imageUrl}){
     );
 }
 
-export default CoreConcept;
+export default AnimalDetail;
