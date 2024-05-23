@@ -3,6 +3,9 @@ import panda from '../../assets/panda.png';
 
 function Header(){
 
+    /*
+        used for dynamically changing the key word on every refresh
+    */
     const dynamicTextArray = ['categorised' , 'divided' , 'distinguised' , 'seperated'];
 
     function randomIntGenerator(max){
